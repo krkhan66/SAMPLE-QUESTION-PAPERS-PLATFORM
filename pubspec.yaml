@@ -1,0 +1,69 @@
+name: sample_question_papers_platform
+description: A platform for accessing sample question papers across subjects, classes, and exam types.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+  flutter: ^3.22.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+
+  # Routing
+  go_router: ^14.2.7
+
+  # Dependency Injection
+  get_it: ^7.7.0
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # Functional Error Handling
+  dartz: ^0.10.1
+
+  # Value Equality
+  equatable: ^2.0.7
+
+  # UI / Design
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+
+  # Storage & File Handling
+  path_provider: ^2.1.4
+  open_file: ^3.5.7
+  permission_handler: ^11.3.1
+
+  # Firebase (optional — uncomment when Firebase project is configured)
+  # firebase_core: ^2.32.0
+  # firebase_auth: ^4.20.0
+  # cloud_firestore: ^4.17.5
+  # firebase_analytics: ^10.10.5
+  # firebase_crashlytics: ^3.5.5
+
+  # Utilities
+  intl: ^0.20.2
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
